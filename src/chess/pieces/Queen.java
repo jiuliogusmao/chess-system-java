@@ -12,14 +12,14 @@ import chess.Color;
  *
  * @author jiulio
  */
-public class King extends ChessPiece {
+public class Queen extends ChessPiece {
 
-    public King(Board board, Color color) {
+    public Queen(Board board, Color color) {
         super(board, color);
     }
     
     @Override
     public String toString(){
-        return "K";
+        return "Q";
     }
 }
